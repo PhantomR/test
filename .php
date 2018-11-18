@@ -2,7 +2,7 @@
 
 # Flag: [REDACTED]
 
-$regex = '/^https:\/\/github\.com\/[a-zA-Z0-9-]+\/[a-zA-Z0-9-]+$/';
+regex = '/^https:\/\/github\.com\/[a-zA-Z0-9-]+\/[a-zA-Z0-9-]+$/';
 
 if(!isset($_GET['repo'])) {
 	return;
